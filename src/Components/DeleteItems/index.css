@@ -1,0 +1,93 @@
+.history-item-container {
+  padding-right: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.delete-logo-url {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.time {
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    font-size: 12px;
+  }
+}
+
+.logo-img {
+  height: 17px;
+  width: 17px;
+  margin-left: 20px;
+  margin-right: 30px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-img {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.title {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 30px;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 16px;
+  }
+}
+
+.domain-url {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-right: 30px;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    font-size: 12px;
+  }
+}
+
+.delete-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: transparent;
+}
+
+.delete-img {
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .delete-img {
+    height: 18px;
+    width: 18px;
+  }
+}
